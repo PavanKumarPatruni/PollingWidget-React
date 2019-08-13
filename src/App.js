@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import PollingWidget from './components/polling_widget/PollingWidget';
+import PollingImageWidget from './components/polling_widget/PollingImageWidget';
 import './App.css';
 
 function App() {
+
+  let polling = {
+    question: 'Whats your favorite programiing language to work?',
+    answers: [{
+      answer: 'Java',
+      img: './assets/images/java.png',
+      percent: '14'
+    }, {
+      answer: 'Kotlin',
+      img: './assets/images/kotlin.png',
+      percent: '56'
+    }, {
+      answer: 'JavaScript',
+      img: './assets/images/js.png',
+      percent: '22'
+    }, {
+      answer: 'Python',
+      img: './assets/images/python.jpg',
+      percent: '8'
+    }]
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PollingWidget polling={polling} onSelect={() => this.onPoll()}/>
+      <PollingImageWidget polling={polling} onSelect={() => this.onPoll()}/>
     </div>
   );
 }
