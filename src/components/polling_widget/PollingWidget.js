@@ -27,6 +27,8 @@ class PollingWidget extends Component {
         this.setState({
             isClicked : true
         });
+
+        this.props.onSelect(index);
     }
 
     render() {

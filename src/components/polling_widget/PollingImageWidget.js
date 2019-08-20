@@ -32,6 +32,8 @@ class PollingImageWidget extends Component {
         this.setState({
             isClicked : true
         });
+
+        this.props.onSelect(index);
     }
 
     render() {
@@ -66,10 +68,13 @@ class PollingImageWidget extends Component {
                     case 3:
                         img = pythonImg;
                         break;
+                    default:
+                        img = javaImg;
+                        break
                 }
 
                 let item = (<div key={index} className={"answer-div " + (answer.active ? "active" : "")} onClick={() => this.onClick(index)}>
-                    <img className="answer-img" src={img}/>
+                    <img className="answer-img" src={img} alt={answer.answer}/>
                     <div className="answer-image-div overlay">
                         <div className={"answer-progress " + (answer.active ? "active" : "")} style={{ width: `${percentage}%`}}></div>
                         <div className="answer-overlay">
