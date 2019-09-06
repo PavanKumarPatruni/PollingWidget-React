@@ -16,7 +16,7 @@ class PollingWidget extends Component {
     onClick(index) {
         let {polling} = this.state;
         let count = 0; 
-        polling.answers.map(answer=> {
+        polling.answers.map(answer => {
             if (count++ === index) {
                 return answer.active = true;
             } else {
