@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/PollingWidget-React/static/css/main.189cbd32.chunk.css",
+    "main.js": "/PollingWidget-React/static/js/main.289cb8ca.chunk.js",
+    "main.js.map": "/PollingWidget-React/static/js/main.289cb8ca.chunk.js.map",
+    "runtime~main.js": "/PollingWidget-React/static/js/runtime~main.81910080.js",
+    "runtime~main.js.map": "/PollingWidget-React/static/js/runtime~main.81910080.js.map",
+    "static/js/2.e508e6a3.chunk.js": "/PollingWidget-React/static/js/2.e508e6a3.chunk.js",
+    "static/js/2.e508e6a3.chunk.js.map": "/PollingWidget-React/static/js/2.e508e6a3.chunk.js.map",
+    "index.html": "/PollingWidget-React/index.html",
+    "precache-manifest.abaf1fc535c2c02329a29b4393869c07.js": "/PollingWidget-React/precache-manifest.abaf1fc535c2c02329a29b4393869c07.js",
+    "service-worker.js": "/PollingWidget-React/service-worker.js",
+    "static/css/main.189cbd32.chunk.css.map": "/PollingWidget-React/static/css/main.189cbd32.chunk.css.map",
+    "static/media/java.png": "/PollingWidget-React/static/media/java.64611413.png",
+    "static/media/js.png": "/PollingWidget-React/static/media/js.0cded3a3.png",
+    "static/media/kotlin.png": "/PollingWidget-React/static/media/kotlin.4ef59bd9.png",
+    "static/media/python.jpg": "/PollingWidget-React/static/media/python.3f69ff06.jpg"
+  }
+}
